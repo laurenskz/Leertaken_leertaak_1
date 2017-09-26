@@ -1,4 +1,4 @@
-package nl.hanze;
+package nl.hanze.assignment1;
 
 import java.util.ArrayList;
 import java.util.List;

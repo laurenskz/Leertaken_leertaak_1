@@ -1,4 +1,4 @@
-package nl.hanze;
+package nl.hanze.assignment1;
 
 
 public interface Subject {

@@ -1,12 +1,8 @@
-package nl.hanze.observers;
+package nl.hanze.assignment1.observers;
 
-import nl.hanze.Observer;
-import nl.hanze.Stock;
-import nl.hanze.StockGrabber;
-import nl.hanze.View;
-
-import java.util.Optional;
-import java.util.stream.Stream;
+import nl.hanze.assignment1.Observer;
+import nl.hanze.assignment1.Stock;
+import nl.hanze.assignment1.StockGrabber;
 
 /**
  * Created by Laurens on 25-9-2017.

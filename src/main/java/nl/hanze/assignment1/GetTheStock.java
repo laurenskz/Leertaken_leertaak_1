@@ -1,10 +1,8 @@
-package nl.hanze;
+package nl.hanze.assignment1;
 
-import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 import java.util.function.BiConsumer;
 
 import static java.util.concurrent.Executors.newSingleThreadScheduledExecutor;

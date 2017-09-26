@@ -1,7 +1,7 @@
-package nl.hanze.observers;
+package nl.hanze.assignment1.observers;
 
-import nl.hanze.Stock;
-import nl.hanze.View;
+import nl.hanze.assignment1.Stock;
+import nl.hanze.assignment1.View;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,19 +1,15 @@
-package nl.hanze.view;
+package nl.hanze.assignment1.view;
 
 import javafx.application.Platform;
-import javafx.scene.chart.LineChart;
-import javafx.scene.chart.NumberAxis;
 import javafx.scene.text.Text;
-import nl.hanze.Stock;
-import nl.hanze.View;
+import nl.hanze.assignment1.Stock;
+import nl.hanze.assignment1.View;
 
 import javafx.scene.Node;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by Laurens on 25-9-2017.

@@ -1,4 +1,4 @@
-package nl.hanze;
+package nl.hanze.assignment1;
 
 
 import javafx.application.Application;
@@ -8,14 +8,13 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import nl.hanze.observers.AAPLObserver;
-import nl.hanze.observers.GoogleObserver;
-import nl.hanze.observers.IBMObserver;
-import nl.hanze.view.GraphView;
-import nl.hanze.view.TextView;
+import nl.hanze.assignment1.observers.AAPLObserver;
+import nl.hanze.assignment1.observers.GoogleObserver;
+import nl.hanze.assignment1.observers.IBMObserver;
+import nl.hanze.assignment1.view.GraphView;
+import nl.hanze.assignment1.view.TextView;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 
 // the Client

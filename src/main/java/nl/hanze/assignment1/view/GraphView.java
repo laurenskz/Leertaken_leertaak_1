@@ -1,12 +1,12 @@
-package nl.hanze.view;
+package nl.hanze.assignment1.view;
 
 import javafx.application.Platform;
 import javafx.scene.Node;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
-import nl.hanze.Stock;
-import nl.hanze.View;
+import nl.hanze.assignment1.Stock;
+import nl.hanze.assignment1.View;
 
 import java.util.HashMap;
 import java.util.Map;

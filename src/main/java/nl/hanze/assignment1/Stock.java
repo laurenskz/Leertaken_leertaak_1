@@ -1,4 +1,4 @@
-package nl.hanze;
+package nl.hanze.assignment1;
 
 /**
  * Created by Laurens on 25-9-2017.
