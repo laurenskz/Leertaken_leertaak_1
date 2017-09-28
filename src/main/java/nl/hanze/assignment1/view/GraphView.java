@@ -6,7 +6,9 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import nl.hanze.assignment1.Stock;
+import nl.hanze.assignment1.StockUpdate;
 import nl.hanze.assignment1.View;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,13 +23,15 @@ public class GraphView implements View {
     private Map<Stock, XYChart.Series> stockValues = new HashMap<>();
     private Map<Stock, Integer> counters = new ConcurrentHashMap<>();
 
-    @Override
+    @NotNull @Override
     public Node getNode() {
         return lineChart;
     }
 
     @Override
-    public void update(Stock stock, double newPrice) {
+    public void update(@NotNull StockUpdate stockUpdate) {
+        Stock stock = stockUpdate.getStock();
+        Double newPrice = stockUpdate.getPrice();
         assertInitialization(stock);
         XYChart.Series series = stockValues.get(stock);
         counters.merge(stock, 1, Integer::sum);
