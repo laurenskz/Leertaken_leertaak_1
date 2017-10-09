@@ -1,0 +1,5 @@
+Differences:
+    - Implementations can change the state in state pattern
+    - Strategy can't change state of the context
+Similarities:
+    - Work is delegated to attribute of object

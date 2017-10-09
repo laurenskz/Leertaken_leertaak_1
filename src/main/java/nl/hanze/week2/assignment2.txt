@@ -1,0 +1,6 @@
+a:
+    Client - application
+    Invoker - Thread
+    Command interface - Runnable
+    Concrete command - Implementations of Runnable
+    Receiver - Can be anything.

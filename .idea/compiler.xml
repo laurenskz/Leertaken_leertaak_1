@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/PizzaMaker.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/PlainPizza.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/toppings/TomatoSauce.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment3/PizzaStoreFactory.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment3/Runner.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/Size.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/toppings/Mozzarella.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/utils.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment3/FatPizzaStore.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment3/SkinnyPizzaStore.kt" />
+      <file url="file://$PROJECT_DIR$/src/main/java/nl/hanze/assignment2/Pizza.kt" />
+    </excludeFromCompile>
+    <resourceExtensions />
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
         <module name="Leertaken" />
       </profile>
     </annotationProcessing>
